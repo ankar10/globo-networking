@@ -20,7 +20,7 @@ variable "environment" {
   default     = "globo-dev"
 }
 
-variable "billing code" {
+variable "billing_code" {
   type        = string
   description = "(required) Billing code for network resources"
 }
